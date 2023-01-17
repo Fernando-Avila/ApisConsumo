@@ -1,7 +1,7 @@
 
 Correccion Api Consumo Clientes
 <hr>
-Aunque llegué muy tarde por el viaje, revisé y corregí el problema de la Api
+Aunque llegué muy tarde, revisé y corregí el problema de la Api
 <br>
 Recibe el token de autorizacion generado con el login utilizado en la oficina
 <br>
