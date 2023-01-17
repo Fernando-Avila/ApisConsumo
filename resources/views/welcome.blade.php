@@ -1,0 +1,42 @@
+@extends('layouts.app')
+@section('content')
+    <div class="container center">
+        <div style="display: flex; align-items: center; justify-content: center; height: 100vh">
+            <div class="row ">
+                <div class="col-3">
+                    <a href="{{ route('clientapi.index') }}">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="https://blog.gosocket.net/wp-content/uploads/2015/01/Clientes.png"
+                                alt="ClientesApi">
+                            <div class="card-body">
+                                <h4 class="card-title">Clientes Api</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="{{ route('clientapi.index') }}">
+                        <div class="card text-center">
+                            <img class="card-img-top"
+                                src="data:image/jpeg;base64,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" alt="Mascotas">
+                            <div class="card-body">
+                                <h4 class="card-title">Mascotas</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="{{ route('clientapi.index') }}">
+                        <div class="card text-center">
+                            <img class="card-img-top"
+                                src="https://blog.gosocket.net/wp-content/uploads/2015/01/Clientes.png" alt="ClientesApi">
+                            <div class="card-body">
+                                <h4 class="card-title">Mis Clientes</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
