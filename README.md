@@ -7,4 +7,7 @@ Recibe el token de autorizacion generado con el login utilizado en la oficina
 <br>
 No tenia el metodo para el login, solo consumo y el token, por eso lo utilice 
 <br>
+En el .env.example se ubica la direccion api y el token
+<br>
 Espero valga la pena 
+
